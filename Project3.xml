@@ -8,7 +8,21 @@
           </block>
         </value>
         <next>
-          <block type="movement_stop" id="55"></block>
+          <block type="movement_setmotors" id="133" inline="true">
+            <value name="BOTHMOVLEFT">
+              <block type="math_number" id="149">
+                <field name="NUM">20</field>
+              </block>
+            </value>
+            <value name="BOTHMOVRIGHT">
+              <block type="math_number" id="156">
+                <field name="NUM">40</field>
+              </block>
+            </value>
+            <next>
+              <block type="movement_stop" id="55"></block>
+            </next>
+          </block>
         </next>
       </block>
     </next>
