@@ -1,1 +1,63 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="movement_forward" id="1" x="27" y="16">
+    <next>
+      <block type="robot_delay" id="2" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="3">
+            <field name="NUM">5000</field>
+          </block>
+        </value>
+        <next>
+          <block type="movement_stop" id="4">
+            <next>
+              <block type="movement_left" id="5">
+                <next>
+                  <block type="robot_delay" id="6" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="14">
+                        <field name="NUM">5000</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="movement_left" id="7">
+                        <next>
+                          <block type="robot_delay" id="8" inline="true">
+                            <value name="DELAY">
+                              <block type="math_number" id="13">
+                                <field name="NUM">5000</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="movement_stop" id="9">
+                                <next>
+                                  <block type="movement_left" id="10">
+                                    <next>
+                                      <block type="robot_delay" id="11" inline="true">
+                                        <value name="DELAY">
+                                          <block type="math_number" id="15">
+                                            <field name="NUM">5000</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="movement_stop" id="12"></block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
