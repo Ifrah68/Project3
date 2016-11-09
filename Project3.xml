@@ -23,15 +23,10 @@
         <next>
           <block type="movement_forward" id="165">
             <next>
-              <block type="movement_setmotors" id="140" inline="true">
-                <value name="BOTHMOVLEFT">
-                  <block type="math_number" id="141">
-                    <field name="NUM">40</field>
-                  </block>
-                </value>
-                <value name="BOTHMOVRIGHT">
-                  <block type="math_number" id="142">
-                    <field name="NUM">20</field>
+              <block type="movement_leftmotor" id="176" inline="true">
+                <value name="MOVLEFT">
+                  <block type="math_number" id="177">
+                    <field name="NUM">80</field>
                   </block>
                 </value>
                 <next>
