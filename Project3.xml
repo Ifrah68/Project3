@@ -6,7 +6,7 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="207">
+      <block type="movement_forward" id="3">
         <next>
           <block type="robot_delay" id="4" inline="true">
             <value name="DELAY">
@@ -21,23 +21,23 @@
     <next>
       <block type="movement_stop" id="6">
         <next>
-          <block type="movement_forward" id="208">
+          <block type="movement_forward" id="7">
             <next>
-              <block type="movement_setmotors" id="188" inline="true">
+              <block type="movement_setmotors" id="8" inline="true">
                 <value name="BOTHMOVLEFT">
-                  <block type="math_number" id="196">
+                  <block type="math_number" id="9">
                     <field name="NUM">160</field>
                   </block>
                 </value>
                 <value name="BOTHMOVRIGHT">
-                  <block type="math_number" id="195">
+                  <block type="math_number" id="10">
                     <field name="NUM">80</field>
                   </block>
                 </value>
                 <next>
-                  <block type="robot_delay" id="154" inline="true">
+                  <block type="robot_delay" id="11" inline="true">
                     <value name="DELAY">
-                      <block type="math_number" id="155">
+                      <block type="math_number" id="12">
                         <field name="NUM">500</field>
                       </block>
                     </value>
