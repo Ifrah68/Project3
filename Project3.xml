@@ -28,12 +28,21 @@
                 <next>
                   <block type="movement_forward" id="9">
                     <next>
-                      <block type="robot_delay" id="10" inline="true">
-                        <value name="DELAY">
-                          <block type="math_number" id="11">
-                            <field name="NUM">500</field>
+                      <block type="controls_repeat" id="80" inline="true">
+                        <value name="TIMES">
+                          <block type="math_number" id="94">
+                            <field name="NUM">5</field>
                           </block>
                         </value>
+                        <statement name="DO">
+                          <block type="robot_delay" id="10" inline="true">
+                            <value name="DELAY">
+                              <block type="math_number" id="11">
+                                <field name="NUM">500</field>
+                              </block>
+                            </value>
+                          </block>
+                        </statement>
                         <next>
                           <block type="movement_stop" id="12"></block>
                         </next>
