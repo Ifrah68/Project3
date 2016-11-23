@@ -35,21 +35,12 @@
                     <next>
                       <block type="movement_forward" id="9">
                         <next>
-                          <block type="controls_repeat" id="44" inline="true">
-                            <value name="TIMES">
-                              <block type="math_number" id="51">
-                                <field name="NUM">3</field>
+                          <block type="robot_delay" id="10" inline="true">
+                            <value name="DELAY">
+                              <block type="math_number" id="11">
+                                <field name="NUM">500</field>
                               </block>
                             </value>
-                            <statement name="DO">
-                              <block type="robot_delay" id="10" inline="true">
-                                <value name="DELAY">
-                                  <block type="math_number" id="11">
-                                    <field name="NUM">500</field>
-                                  </block>
-                                </value>
-                              </block>
-                            </statement>
                           </block>
                         </next>
                       </block>
