@@ -76,7 +76,7 @@
                                               <block type="robot_delay" id="23" inline="true">
                                                 <value name="DELAY">
                                                   <block type="math_number" id="24">
-                                                    <field name="NUM">1225</field>
+                                                    <field name="NUM">1250</field>
                                                   </block>
                                                 </value>
                                                 <next>
@@ -103,7 +103,7 @@
                                                               <block type="robot_delay" id="31" inline="true">
                                                                 <value name="DELAY">
                                                                   <block type="math_number" id="32">
-                                                                    <field name="NUM">1600</field>
+                                                                    <field name="NUM">1650</field>
                                                                   </block>
                                                                 </value>
                                                                 <next>
@@ -112,7 +112,7 @@
                                                                       <block type="robot_delay" id="34" inline="true">
                                                                         <value name="DELAY">
                                                                           <block type="math_number" id="35">
-                                                                            <field name="NUM">2800</field>
+                                                                            <field name="NUM">2875</field>
                                                                           </block>
                                                                         </value>
                                                                         <next>
